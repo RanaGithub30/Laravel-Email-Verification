@@ -1,0 +1,13 @@
+Here is Step-by-step Process of Applications--
+--------------------------------------------------------------
+
+1) Setup email details in .env
+2) Migrate the db
+3) Laravel package to automatically create register/login pages and some authentication controllers for us.
+          a) composer require laravel/ui
+          b) php artisan ui vue --auth
+          c) npm install && npm run dev
+
+4) Implements MustVerifyEmail in User Model.
+5) Configure the route
+6) add 'verified' middleware in HomeController.
